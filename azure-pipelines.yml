@@ -26,8 +26,3 @@ steps:
   inputs:
     command: 'test'
     projects: '**/test/**/*.csproj'
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '**/test-*.xml'
